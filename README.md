@@ -1,3 +1,4 @@
-# What is faster — Tomcat or Node.js with Express?
+# JavaScript modules and browser cache 
+Can modules be used in production not bundled?
 
-Sample code for my post https://marian-caikovski.medium.com/what-is-faster-tomcat-or-node-js-with-express-602a829b49b6 comparing performance of Tomcat and Node.js during serving static files such as JavaScript modules.
+Sample code for my post https://marian-caikovski.medium.com/javascript-modules-and-browser-cache-4050b72ec51c about the importance of the browser cache for the web applications made up of JavaScript modules.
