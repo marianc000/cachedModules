@@ -11,7 +11,7 @@ app.use(express.static(staticRoot, {
     // res.setHeader('Cache-Control', 'no-store, max-age=0')
     //  res.setHeader('Cache-Control', 'no-cache')
     // res.setHeader('Cache-Control', 'public, max-age=33333')
-    res.setHeader('Cache-Control', 'max-age=20, stale-while-revalidate=3600')
+    res.setHeader('Cache-Control', 'stale-while-revalidate=3600')
   }
 }));
 

@@ -604,4 +604,5 @@ const total=Date.now()-t0;
 document.querySelector('div').replaceChildren(total+'*' );// to test stale-while-revalidate
 window.parent.postMessage(total,"*");
 console.log(sum);
-//# sourceMappingURL=bundle.es.eb559c61.js.map
+//
+//# sourceMappingURL=bundle.143664b6.js.map
